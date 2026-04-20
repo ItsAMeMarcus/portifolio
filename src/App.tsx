@@ -56,7 +56,7 @@ function App() {
               </div>
               
               <h1 className="text-[12vw] sm:text-[8vw] md:text-[6vw] lg:text-[80px] font-black tracking-[-2px] leading-[0.9] text-white font-display uppercase max-w-4xl">
-                Engenharia
+                Desenvolvedor
                 <span className="block text-border-dark italic">De Software.</span>
               </h1>
               
@@ -79,7 +79,7 @@ function App() {
               <div className="absolute -inset-1 bg-gradient-to-r from-accent to-purple-600 rounded-xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 bg-surface border border-border-dark rounded-xl overflow-hidden flex items-center justify-center">
                 <img 
-                  src="/profile.jpg" 
+                  src="src/assets/54975598643_98a9065c82_k.jpg" 
                   alt="Marcus Vinicius Profile" 
                   className="w-full h-full object-cover relative z-10"
                   referrerPolicy="no-referrer"
@@ -253,23 +253,6 @@ function App() {
                       <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-text-main font-display leading-[1.1]">{project.title}</h3>
                       <p className="text-sm md:text-base text-muted mb-8 leading-relaxed max-w-xl">{project.description}</p>
                     </div>
-
-                    {/* Optional Image for Featured Projects like TCC */}
-                    {project.imagePlaceholder && (
-                      <div className="w-full md:w-1/2 lg:w-5/12 shrink-0 user-select-none mt-6 md:mt-0">
-                        <div className="w-full aspect-[4/3] bg-surface border border-border-dark rounded-xl overflow-hidden flex items-center justify-center group-hover:border-accent/50 transition-colors relative">
-                          <img 
-                            src="/tcc.jpg" 
-                            alt={project.title} 
-                            className="w-full h-full object-cover absolute inset-0 z-10"
-                            referrerPolicy="no-referrer"
-                            onError={(e) => {
-                               (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/tcc/800/600?blur=4';
-                            }}
-                          />
-                        </div>
-                      </div>
-                    )}
                   </div>
                   
                   <div className="relative z-10 flex flex-wrap gap-x-4 gap-y-2 pt-6 border-t border-border-dark/50 mt-8 md:mt-auto">

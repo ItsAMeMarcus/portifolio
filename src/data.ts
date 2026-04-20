@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Marcus Vinicius Silva Conceição",
-  role: "Fullstack Software Engineer",
+  role: "Fullstack Software Developer",
   about: "Desenvolvedor Full Stack especializado na modernização de sistemas legados, arquiteturas baseadas em Microservices e orquestração de containers. Foco contínuo em soluções escaláveis com Java e Angular.",
   location: "Salvador, BA",
   phone: "(71) 99302-0123",
